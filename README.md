@@ -8,8 +8,9 @@ InstaLive is a fork of [JRoy/InstagramLive-PHP](https://github.com/JRoy/Instagra
 # Windows / Linux / Mac
 1. Install PHP, Composer, and ffmpeg
 2. Edit the `USERNAME` and `PASSWORD` inside of the `config.php` file to your Instagram username/password.
-3. Run the `goLive.php` script. (`php goLive.php --dandy`)
-4. Open `127.0.0.1` or `localhost` from your browser.
+3. Command `composer install`
+4. Run the `goLive.php` script. (`php goLive.php --dandy`)
+5. Open `127.0.0.1` or `localhost` from your browser.
 
 # Termux
 1. `pkg install curl`
