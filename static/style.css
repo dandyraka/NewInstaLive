@@ -1,0 +1,367 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 12px;
+}
+
+textarea {
+    resize: none;
+    font-size: 12px;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #2C3E50;
+}
+
+.dark-blue {
+    color: #2C3E50;
+}
+
+.red {
+    color: #E74C3C;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-grey {
+    background-color: #ECF0F1;
+}
+
+.bg-dark-blue {
+    background-color: #2C3E50;
+}
+
+.badge {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.badge-green {
+    background-color: #1ABC9C;
+    color: #fff;
+    position: relative;
+}
+
+.badge-green:after {
+    visibility: hidden;
+    content: "Pin comment";
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    right: 100%;
+    background-color: #1ABC9C;
+    overflow: visible;
+    border-radius: 25px;
+    width: 100px;
+    font-weight: 400;
+}
+
+.badge-green:hover .tooltip-green {
+    visibility: visible;
+}
+
+.badge-yellow {
+    background-color: #dfc513;
+    color: #fff;
+    position: relative;
+}
+
+.badge-yellow:after {
+    visibility: hidden;
+    content: "Pin comment";
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    right: 100%;
+    background-color: #dfc513;
+    overflow: visible;
+    border-radius: 25px;
+    width: 100px;
+    font-weight: 400;
+}
+
+.badge-yellow:hover .tooltip-yellow {
+    visibility: visible;
+}
+
+.tooltip-green {
+    position: absolute;
+    right: 100%;
+    background-color: #1ABC9C;
+    overflow: visible;
+    border-radius: 25px;
+    visibility: hidden;
+    width: 125px;
+    font-weight: 400;
+}
+
+.tooltip-yellow {
+    position: absolute;
+    right: 100%;
+    background-color: #dfc513;
+    overflow: visible;
+    border-radius: 25px;
+    visibility: hidden;
+    width: 125px;
+    font-weight: 400;
+}
+
+.badge-red {
+    background-color: #E74C3C;
+    color: #fff;
+    position: relative;
+}
+
+.badge-red:hover .tooltip-red {
+    visibility: visible;
+}
+
+.tooltip-red {
+    position: absolute;
+    right: 100%;
+    background-color: #E74C3C;
+    overflow: visible;
+    border-radius: 25px;
+    visibility: hidden;
+    width: 125px;
+    font-weight: 400;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.b-none {
+    border: none;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.w-50:last-child {
+    margin-bottom: 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-50 {
+    padding: 10px;
+}
+
+.br-25 {
+    border-radius: 25px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-50 {
+    margin-bottom: 25px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 15px 25px;;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.o-none {
+    outline: none;
+}
+
+.btn-red {
+    background-color: #E74C3C;
+    color: #fff;
+}
+
+.btn-grey {
+    background-color: #ECF0F1;
+    color: #2C3E50;
+}
+
+.btn-blue {
+    background-color: #3498DB;
+    color: #fff;
+}
+
+.btn-green {
+    background-color: #1ABC9C;
+    color: #fff;
+}
+
+.btn-orange {
+    background-color: #E67E22;
+    color: #fff;
+}
+
+.container {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+nav {
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+nav h1, nav h2 {
+    display: inline-block;
+    line-height: 100px;
+}
+
+main {
+    padding: 10px;
+    background-color: #ECF0F1;
+    overflow: hidden;
+}
+
+#commands {
+    overflow: hidden;
+}
+
+#command-buttons button {
+    float: left;
+}
+
+#comments ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+#comments ul li:last-child {
+    margin-bottom: 0;
+}
+
+#comment-box {
+    max-height: 220px;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.comment {
+    width: 75%;
+    display: inline-block;
+}
+
+footer p {
+    line-height: 100px;
+}
+
+#pinned {
+    background-color: #2C3E50;
+    border-radius: 25px;
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 12px;
+    list-style-type: none
+}
+
+#black-overlay {
+    position: fixed;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.modal {
+    position: fixed;
+    width: 400px;
+    min-height: 400px;
+    max-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: #fff;
+    border-radius: 25px;
+    display: none;
+    padding: 20px;
+}
+
+.modal-header h2, i {
+    display: inline-block;
+}
+
+.bottom {
+    position: initial;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    nav {
+        padding: 0 50px;
+    }
+
+    .container {
+        padding: 0 50px;
+    }
+
+    main {
+        padding: 50px;
+    }
+
+    .p-50 {
+        padding: 50px;
+    }
+
+    .w-50 {
+        width: 47.5%;
+        margin-bottom: 0;
+    }
+
+    .mb-50 {
+        margin-bottom: 50px;
+    }
+
+    .bottom {
+        position: absolute;
+        width: 90%;
+        bottom: 20px;
+    }
+}
